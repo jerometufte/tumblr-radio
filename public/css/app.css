@@ -1,0 +1,97 @@
+.c1 {
+  color: #113F8C;
+  }
+.c2 {
+  color: #01A4A4;
+}
+.c3 {
+  color: #00A1CB;
+}
+.c4 {
+  color: #61AE24;
+}
+.c5 {
+  color: #D0D102;
+}
+.c6 {
+  color: #32742C;
+}
+.c7 {
+  color: #D70060;
+}
+.c8 {
+  color: #E54028;
+}
+.c9 {
+  color: #F18D05;
+}
+.c10 {
+  color: #616161;
+}
+
+/* main elements */
+body {
+  background-color: #fafafa;
+}
+
+#wrapper {
+
+}
+
+#title {
+  color: #777;
+  font-size: 22px;
+  font-family: "ff-din-web",sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+a.auth-actions {
+  text-decoration: none;
+  font-size: 12px;
+  color: #ccc;
+  font-family: "ff-din-web",sans-serif;
+  position: relative;
+  float: left;
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+a.auth-actions:hover {
+  color: #999;
+}
+
+#players {
+  position: absolute;
+  top: 60px;
+  display: block;
+  width: 100%;
+  font-family: "ff-din-web",sans-serif;
+}
+
+.audio-embed {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media screen and ( min-device-width : 320px ) and ( max-device-width : 480px ) {
+
+  #wrapper {
+
+  }
+
+}
